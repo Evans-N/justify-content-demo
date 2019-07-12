@@ -6,11 +6,28 @@ html{
 }
 body{
     height: 100vh;
+    background: #110040;
+    color: #3eafe6;
 }
 .flex-start{
     border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
     height: 70%;
     width: 98%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-start.hidden{
+    display:none;
+}
+.flex-start-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
 }
 .flex-start-mode{
     text-align: center;
