@@ -32,3 +32,118 @@ body{
 .flex-start-mode{
     text-align: center;
 }
+.flex-end{
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-end.hidden{
+    display:none;
+}
+.flex-end-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
+}
+.flex-end-mode{
+    text-align: center;
+}
+.flex-center{
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center.hidden{
+    display:none;
+}
+.flex-center-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
+}
+.flex-center-mode{
+    text-align: center;
+}
+.flex-space-between{
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-space-between.hidden{
+    display:none;
+}
+.flex-space-between-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
+}
+.flex-space-between-mode{
+    text-align: center;
+}
+.flex-space-around{
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-space-around.hidden{
+    display:none;
+}
+.flex-space-around-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
+}
+.flex-space-around-mode{
+    text-align: center;
+}
+.flex-space-evenly{
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-space-evenly.hidden{
+    display:none;
+}
+.flex-space-evenly-box {
+    border: 10px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width: 27%;
+}
+.flex-space-evenly-mode{
+    text-align: center;
+}
